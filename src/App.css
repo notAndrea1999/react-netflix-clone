@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #221f1f;
 }
 
 .App-logo {
@@ -35,4 +36,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#basic-nav-dropdown {
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: #221f1f;
+}
+
+h6 {
+  font-size: 10px;
 }
