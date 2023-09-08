@@ -30,7 +30,7 @@ class FilmList extends Component {
           {this.state.filmsList.map((film, index) => (
             <Col className="col-6 col-sm-4 col-md-4 col-lg-2 gy-3 px-2" key={index}>
               <Card style={{ backgroundColor: "#221f1f", border: "none" }}>
-                <Card.Img style={{ height: "250px", objectFit: "contain" }} fluid src={film.Poster} />
+                <Card.Img style={{ height: "400px", objectFit: "contain" }} fluid src={film.Poster} />
               </Card>
             </Col>
           ))}

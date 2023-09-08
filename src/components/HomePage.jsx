@@ -12,7 +12,7 @@ class HomePage extends Component {
         <BelowNavBar />
         <FilmList title={"Trending Now"} genre={"Avengers"} />
         <FilmList title={"Watch it Again"} genre={"nightmare"} />
-        <FilmList title={"New Releases"} genre={"john wick"} />
+        <FilmList title={"New Releases"} genre={"harry potter"} />
         <HomeFooter />
       </>
     );
